@@ -3,6 +3,8 @@ A simple plugin for the GIMP image editing app, add a layer to the current image
 
 Copyright 2018 Louis Gasnault
 
+![tuto](https://media.giphy.com/media/enreHzbi6nRBcVVmXY/giphy.gif)
+
 ## Quickstart
 You want an easy way to add a checkerboard pattern to your image in GIMP? This plugin is for you.
 
@@ -19,6 +21,8 @@ You want an easy way to add a checkerboard pattern to your image in GIMP? This p
 * Create a new file `File` > `New ...`
 * Then go to `Layer` > `Add checkerboard`
 * A layer is automatically added to your image with the pattern
+
+![buton](https://media.giphy.com/media/2WGRJlAIMbwAIm99lt/giphy.gif)
 
 **What he do**
 
