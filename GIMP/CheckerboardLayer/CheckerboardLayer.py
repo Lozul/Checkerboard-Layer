@@ -26,8 +26,8 @@ def plugin_main(timg, tdrawable, opacity = 15):
   # opacity : Opacity of the checkerboard layer
   
   # - Get the width and height of the drawable
-  w = tdrawable.width
-  h = tdrawable.height
+  w = timg.width
+  h = timg.height
   img = timg
 
   # - Gret a new layer, with transparency, the chosed opacity and with normal mode, and add it to the image
@@ -36,9 +36,11 @@ def plugin_main(timg, tdrawable, opacity = 15):
 
   # - Use the plugin checkerboard to generate the pattern, select the background color, erase it, unselect the image
   pdb.plug_in_checkerboard(img, layer_one, 0, 1)
-  pdb.gimp_image_select_color(img, 0, layer_one, gimp.get_background())
-  pdb.gimp_edit_clear(layer_one)
-  pdb.gimp_selection_none(img)
+
+  if w < 1000 and h < 1000:
+    pdb.gimp_image_select_color(img, 0, layer_one, gimp.get_background())
+    pdb.gimp_edit_clear(layer_one)
+    pdb.gimp_selection_none(img)
 
 register(
   "addCheckerboard",
