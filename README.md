@@ -1,6 +1,3 @@
-## Lozul's plugins library
-A collection of plugin that I code myself
-
 ### Index :
 * [GIMP](https://github.com/Lozul/Plugins-Library/tree/master/GIMP)
 ## License
