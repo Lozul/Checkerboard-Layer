@@ -3,7 +3,7 @@ A simple plugin for the GIMP image editing app, add a layer to the current image
 
 Copyright 2018 Louis Gasnault
 
-![tuto](https://github.com/Lozul/Plugins-Library/tree/master/Assets/checkboard_0.gif)
+![tuto](https://github.com/Lozul/Plugins-Library/blob/master/Assets/checkboard_0.gif)
 
 ## Quickstart
 You want an easy way to add a checkerboard pattern to your image in GIMP? This plugin is for you.
