@@ -1,5 +1,5 @@
 ### Index :
-* [OCAML](https://github.com/Lozul/Plugins-Library/blob/master/ST3/Build%20System/OCAML.sublime-build) : execute `ocaml -init %currentfile%`
+* [OCAML](https://github.com/Lozul/Plugins-Library/blob/master/ST3/Build%20System/OCAML.sublime-build) : execute `ocaml -init $file`
 
 ***
 
