@@ -1,6 +1,6 @@
 ## Sublime Text 3 Plugins
 <p align="center">
-  <img width="25%" src="https://www.sublimetext.com/images/icon.png"
+  <img width="15%" src="https://www.sublimetext.com/images/icon.png"
 </p>
 
 Plugins for [Sublime Text 3] (https://www.sublimetext.com/), a text editor for code.
