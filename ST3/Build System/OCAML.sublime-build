@@ -1,0 +1,5 @@
+{
+  "cmd": ["ocaml", "-init", "$file"],
+  "file_patterns" : ["*.ml"],
+  "target": "console_exec"
+}
